@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <!--link href="calc.css" rel="stylesheet" type="text/css" /-->
+    </head>
+    <body>
+        <div id="container" style="width:500px; height:500px; position:relative;" >
+            <canvas id="drawing-surface" width="500px" height="500px">
+            </canvas>
+            <div class="skillbar" id="skillbar">
+                <div style="position:absolute; top:12px; left:150px;">
+                    <button class="multiply" id="multiply">Multiplication</button>
+                </div>
+                <!-- division -->
+                <!-- add ups -->
+                <!-- subtraction -->
+            </div>
+            <div class="gamebar" id="gamebar">
+                <input id="answerText" class="answerText" type="text" style="position:absolute; top:10px; left:150px;"></input>
+                <div style="position:absolute; top:12px; left:310px;">
+                    <button class="next" id="next">Next</button>
+                </div>
+                <div style="position:absolute; top:12px; left:360px;">
+                    <button class="stopButton" id="stopButton">Stop</button>
+                </div>
+            </div>
+            <div class="multiplysettingsbar" id="multiplysettingsbar">
+                <div style="position:absolute; top:12px; left:150px;">
+                    <button class="buttonmultiply1" id="buttonmultiply1">&nbsp;1&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:12px; left:185px;">
+                    <button class="buttonmultiply2" id="buttonmultiply2">&nbsp;2&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:12px; left:220px;">
+                    <button class="buttonmultiply3" id="buttonmultiply3">&nbsp;3&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:12px; left:255px;">
+                    <button class="buttonmultiply4" id="buttonmultiply4">&nbsp;4&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:12px; left:290px;">
+                    <button class="buttonmultiply5" id="buttonmultiply5">&nbsp;5&nbsp;</button>
+                </div>
+                
+                <div style="position:absolute; top:32px; left:150px;">
+                    <button class="buttonmultiply6" id="buttonmultiply6">&nbsp;6&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:32px; left:185px;">
+                    <button class="buttonmultiply7" id="buttonmultiply7">&nbsp;7&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:32px; left:220px;">
+                    <button class="buttonmultiply8" id="buttonmultiply8">&nbsp;8&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:32px; left:255px;">
+                    <button class="buttonmultiply9" id="buttonmultiply9">&nbsp;9&nbsp;</button>
+                </div>
+                <div style="position:absolute; top:32px; left:290px;">
+                    <button class="buttonmultiply10" id="buttonmultiply10">10</button>
+                </div>
+                
+                <div style="position:absolute; top:53px; left:155px;">
+                   <label>Random questions:&nbsp;</label>
+                </div>
+                <div style="position:absolute; top:52px; left:280px;">
+                   <button class="buttonRandom" id="buttonRandom">off</button>
+                </div>
+                <div style="position:absolute; top:72px; left:215px;">
+                   <button class="startbutton" id="startbutton">start</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js-new/jquery-1.8.1.min.js"> </script>
+    <script type="text/javascript" src="js-new/calc/index.js"> </script>
+</html>
